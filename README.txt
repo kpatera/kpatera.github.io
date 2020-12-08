@@ -31,3 +31,21 @@ Credits:
 	Other:
 		jQuery (jquery.com)
 		Responsive Tools (github.com/ajlkn/responsive-tools)
+
+	Image1: 
+		https://www1.chester.ac.uk/research/research-festival
+
+	Image2:
+		https://www.kumc.edu/images/biostatistics/blue-stat-home.jpg
+
+	Image3:
+		https://online.stanford.edu/sites/default/files/styles/figure_default/public/2018-08/design-conduct-of-clinical-trials_HRP251.jpg?itok=PYQlpLOy
+	
+	Image4:
+		https://shiny.rstudio.com/images/examples/01_hello.png
+
+	Image5:
+		https://researchschool.org.uk/bradford/news/the-7-stages-of-the-writing-process/
+	
+	Image6:
+		https://europa.eu/youth/sites/default/files/styles/eyp_detail_page_main_image/public/article/vol.jpg?itok=3qB6hpi2
