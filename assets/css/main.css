@@ -2060,7 +2060,7 @@ input, select, textarea {
 				line-height: 2.25em;
 				margin: -1.25em 0 0 -3em;
 				opacity: 0;
-				padding: 0 40em;
+				padding: 20px;
 				position: absolute;
 				text-align: center;
 				text-decoration: none;
