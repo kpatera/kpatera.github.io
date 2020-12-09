@@ -2057,10 +2057,10 @@ input, select, textarea {
 				font-size: 0.8em;
 				font-weight: 400;
 				left: 50%;
-				line-height: 40em;
+				line-height: 2.25em;
 				margin: -1.25em 0 0 -3em;
 				opacity: 0;
-				padding: 0 1.5em;
+				padding: 0 40em;
 				position: absolute;
 				text-align: center;
 				text-decoration: none;
