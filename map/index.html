@@ -18,7 +18,7 @@
 <script>
 L.mapbox.accessToken = 'pk.eyJ1Ijoia3BhdGVyYXMiLCJhIjoiY2tpdDA5Y3pxMmxxMTMycWphNmhscXJmcCJ9.ZS2KGffW3WW7yoxPlGBdtQ';
 var map = L.mapbox.map('map')
-    .setView([38.91338, -77.03236], 16)
+    .setView([23.643690, 37.933710], 16)
     .addLayer(L.mapbox.styleLayer('mapbox://styles/mapbox/streets-v11'));
 
 L.mapbox.featureLayer({
@@ -30,18 +30,18 @@ L.mapbox.featureLayer({
         // coordinates here are in longitude, latitude order because
         // x, y is the standard for GeoJSON and many formats
         coordinates: [
-          -77.03221142292,
-          38.913371603574
+          37.933710,
+          23.643690
         ]
     },
     properties: {
         title: 'Peregrine Espresso',
-        description: '1718 14th St NW, Washington, DC',
+        description: 'FIREFLY Co L.P. 185 37, L Freatidos 32, Piraeus',
         // one can customize markers by adding simplestyle properties
         // https://www.mapbox.com/guides/an-open-platform/#simplestyle
         'marker-size': 'large',
         'marker-color': '#BE9A6B',
-        'marker-symbol': 'cafe'
+        'marker-symbol': 'shop'
     }
 }).addTo(map);
 </script>
