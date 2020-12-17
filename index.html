@@ -35,6 +35,10 @@
 
 
 	<head>
+		
+		<script src='https://api.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.js'></script> <link href='https://api.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.css' rel='stylesheet' />
+
+		
 		<link href="favicon.ico" rel="icon" type="image/x-icon" />
 		<title>Pateras Konstantinos</title>
 		<meta charset="utf-8" />
@@ -141,6 +145,17 @@ I cherished pro bono scientific collaborations with the University of Hannover, 
 								   </p>
 							</article>
 						</div>
+		map.on('load', function() {
+  map.addLayer({
+    id: 'terrain-data',
+    type: 'line',
+    source: {
+      type: 'vector',
+      url: 'mapbox://mapbox.mapbox-terrain-v2'
+    },
+    'source-layer': 'contour'
+  });
+});
 						<ul class="actions">
 							<li><a href="kpatera.github.io\Manu_Proj_Volunt\index.html" class="button" target="_blank">List of manuscripts/projects</a></li>
 						</ul>
