@@ -2,8 +2,8 @@
 # Add MAGNET countries under magnet.countries. Use status: active, candidate, interested, or pending.
 
 name: Konstantinos Pateras
-tagline: Applied Statistics · Behavioural Sciences · Biostatistics · Evidence Synthesis
-future_role: Really soon an Ass. Professor of Applied Statistics in Behavioural Sciences
+tagline: Behavioural Sciences · Biostatistics · Evidence Synthesis
+future_role: Upcoming role: Ass. Professor of Applied Statistics in Behavioural Sciences
 profile_image: /images/profile.jpg
 bio: Konstantinos Pateras is a statistician working at the intersection of applied statistics, behavioural sciences and biostatistics. His work focuses on Bayesian methods, evidence synthesis, small-population studies, public and one health applications and statistical tools that support transparent decision-making under limited or complex data. He develops and applies statistical methodology across clinical, epidemiological and behavioural research, with a strong interest in reproducible workflows and collaborative research networks.
 highlights:
