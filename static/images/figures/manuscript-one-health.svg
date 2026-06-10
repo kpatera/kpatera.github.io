@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" role="img" aria-label="One Health illustration">
+  <rect width="240" height="160" rx="22" fill="#eef5ff"/>
+  <circle cx="198" cy="34" r="22" fill="#dbeafe"/>
+  <path d="M34 112 C72 54, 104 132, 142 74 S200 66, 216 34" fill="none" stroke="#2457a6" stroke-width="8" stroke-linecap="round"/>
+  <path d="M34 120 H210" stroke="#94a3b8" stroke-width="3" stroke-linecap="round"/>
+  <path d="M42 122 V42" stroke="#94a3b8" stroke-width="3" stroke-linecap="round"/>
+  <text x="120" y="146" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#1f2937">One Health</text>
+</svg>

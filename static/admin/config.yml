@@ -1,0 +1,108 @@
+backend:
+  name: github
+  repo: kpatera/kpatera.github.io
+  branch: main
+
+media_folder: "static/images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "onepage"
+    label: "One-page website"
+    files:
+      - file: "data/site.yml"
+        name: "site"
+        label: "Main page content"
+        fields:
+          - {label: "Name", name: "name", widget: "string"}
+          - {label: "Tagline", name: "tagline", widget: "string"}
+          - {label: "Future role", name: "future_role", widget: "string"}
+          - {label: "Profile image", name: "profile_image", widget: "image"}
+          - {label: "Bio", name: "bio", widget: "text"}
+
+          - label: "Highlights"
+            name: "highlights"
+            widget: "list"
+            field: {label: "Highlight", name: "highlight", widget: "string"}
+
+          - label: "Links"
+            name: "links"
+            widget: "object"
+            fields:
+              - {label: "Email", name: "email", widget: "string"}
+              - {label: "Google Scholar", name: "google_scholar", widget: "string"}
+              - {label: "ORCID", name: "orcid", widget: "string"}
+              - {label: "GitHub", name: "github", widget: "string"}
+              - {label: "ResearchGate", name: "researchgate", widget: "string"}
+              - {label: "LinkedIn", name: "linkedin", widget: "string"}
+
+          - label: "Research themes"
+            name: "research_themes"
+            widget: "list"
+            fields:
+              - {label: "Name", name: "name", widget: "string"}
+              - {label: "Type", name: "type", widget: "select", options: ["methodology", "health", "clinical", "evidence", "behavioural", "computing"], default: "methodology"}
+
+          - label: "MAGNET"
+            name: "magnet"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Subtitle", name: "subtitle", widget: "string"}
+              - {label: "Role", name: "role", widget: "string"}
+              - {label: "Text", name: "text", widget: "text"}
+              - label: "Countries"
+                name: "countries"
+                widget: "list"
+                summary: "{{fields.code}} — {{fields.name}} ({{fields.status}})"
+                fields:
+                  - {label: "Country name", name: "name", widget: "string"}
+                  - {label: "Short code", name: "code", widget: "string", hint: "Example: GR, NL, IT"}
+                  - {label: "Status", name: "status", widget: "select", options: ["active", "candidate", "interested", "pending"], default: "interested"}
+                  - {label: "Map row", name: "row", widget: "number", default: 1, value_type: "int", min: 1, max: 5}
+                  - {label: "Map column", name: "col", widget: "number", default: 1, value_type: "int", min: 1, max: 8}
+
+          - label: "Projects"
+            name: "projects"
+            widget: "list"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Period", name: "period", widget: "string", required: false}
+              - {label: "Start year", name: "start_year", widget: "number", required: false, value_type: "int"}
+              - {label: "Text", name: "text", widget: "text"}
+
+          - label: "Teaching"
+            name: "teaching"
+            widget: "list"
+            fields:
+              - {label: "Group", name: "group", widget: "string"}
+              - label: "Organisations"
+                name: "organisations"
+                widget: "list"
+                field: {label: "Organisation", name: "organisation", widget: "string"}
+              - label: "Courses"
+                name: "courses"
+                widget: "list"
+                field: {label: "Course", name: "course", widget: "string"}
+
+          - label: "Featured publications"
+            name: "publications"
+            widget: "object"
+            fields:
+              - {label: "Intro text", name: "text", widget: "text"}
+              - label: "Featured publication cards"
+                name: "featured"
+                widget: "list"
+                summary: "{{fields.title}} — {{fields.journal}}"
+                fields:
+                  - {label: "Title", name: "title", widget: "string"}
+                  - {label: "Journal/year", name: "journal", widget: "string"}
+                  - {label: "Figure", name: "image", widget: "image", required: false}
+                  - {label: "Summary", name: "summary", widget: "text"}
+                  - {label: "Link", name: "link", widget: "string", required: false}
+
+          - label: "GRstats"
+            name: "service"
+            widget: "object"
+            fields:
+              - {label: "GRstats", name: "grstats", widget: "text"}

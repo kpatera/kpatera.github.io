@@ -1,0 +1,14 @@
+baseURL = "https://www.kpateras.eu/"
+languageCode = "en-us"
+title = "Konstantinos Pateras"
+copyright = "© 2026 Konstantinos Pateras"
+enableRobotsTXT = true
+
+[params]
+  description = "Konstantinos Pateras — Applied statistics, behavioural sciences, biostatistics, public health, and evidence synthesis"
+  author = "Konstantinos Pateras"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} · {{ site.Title }}{{ end }}</title>
+  <meta name="description" content="{{ site.Params.description }}">
+  <link rel="icon" href="/images/pi-blue.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/css/main.css?v=onepage6">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="/"><img src="/images/pi-blue.svg" alt=""><span>{{ site.Title }}</span></a>
+    <nav><a href="/#top">Home</a><a href="/#magnet">MAGNET</a><a href="/#projects">Projects</a><a href="/#teaching">Teaching</a><a href="/#publications">Featured publications</a></nav>
+  </header>
+  <main id="top">{{ block "main" . }}{{ end }}</main>
+  <footer>© 2026 Konstantinos Pateras · Powered by Hugo</footer>
+  <script src="/js/main.js"></script>
+</body>
+</html>
