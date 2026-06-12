@@ -1,4 +1,3 @@
-# EDIT THIS FILE FOR MOST WEBSITE CHANGES.
 # Add MAGNET countries under magnet.countries. Use status: active, candidate, interested, or pending.
 
 name: Konstantinos Pateras
@@ -8,10 +7,10 @@ profile_image: /images/profile.jpg
 bio: Konstantinos Pateras is a statistician working at the intersection of applied statistics, behavioural sciences and biostatistics. His work focuses on Bayesian methods, evidence synthesis, small-population studies, public and one health applications and statistical tools that support transparent decision-making under limited or complex data. He develops and applies statistical methodology across clinical, epidemiological and behavioural research, with a strong interest in reproducible workflows and collaborative research networks.
 highlights:
   - 27+ funded research and applied projects
-  - 37 peer-reviewed publications; 10 as first/last author
+  - 37 peer-reviewed publications - 10 as first/senior author
   - Main proposer and Action Chair Candidate for MAGNET COST Action
-  - Teaching across AUEB, University of Thessaly, UMC Utrecht and NKUA
-  - Maintainer/contributor to statistical R tools including PriorGen, EVI and gamlss.demo
+  - Teaching across AUEB, UTH, UU, UMCU and NKUA
+  - Maintainer/contributor to 3 R tools
 links:
   google_scholar: https://scholar.google.com/citations?hl=el&user=JMQRjpUAAAAJ
   orcid: https://orcid.org/0000-0002-6005-9798
@@ -58,14 +57,14 @@ research_themes:
 # - name: Reproducible Research
 #    type: computing
 magnet:
-  title: MAGNET COST Action 2026–2030
+  title: MAGNET COST Action 2026-2030
   subtitle: Multidisciplinary Adaptations of GAMLSS NETwork
   role: Main proposer and Action Chair Candidate
   text: MAGNET is the main future focal point of the website. It is designed around multidisciplinary adaptations of Generalized Additive Models for Location, Scale and Shape (GAMLSS), with applications in Public & One Health, infectious disease modelling, predictive risk modelling, open workflows, training schools, exchanges and pilot outputs.
   countries:
     - name: United Kingdom
       code: UK
-      status: candidate
+      status: active
       row: 1
       col: 2
     - name: Netherlands
@@ -75,27 +74,27 @@ magnet:
       col: 4
     - name: Germany
       code: DE
-      status: interested
+      status: active
       row: 1
       col: 5
     - name: Poland
       code: PL
-      status: candidate
+      status: active
       row: 1
       col: 7
     - name: France
       code: FR
-      status: interested
+      status: inactive
       row: 2
       col: 3
     - name: Switzerland
       code: CH
-      status: candidate
+      status: interested
       row: 2
       col: 4
     - name: Austria
       code: AT
-      status: candidate
+      status: active
       row: 2
       col: 5
     - name: Hungary
@@ -105,17 +104,17 @@ magnet:
       col: 6
     - name: Portugal
       code: PT
-      status: interested
+      status: active
       row: 3
       col: 1
     - name: Spain
       code: ES
-      status: interested
+      status: active
       row: 3
       col: 2
     - name: Italy
       code: IT
-      status: interested
+      status: active
       row: 3
       col: 4
     - name: Greece
@@ -125,56 +124,61 @@ magnet:
       col: 6
     - name: Turkey
       code: TR
-      status: candidate
+      status: active
       row: 4
       col: 7
     - name: Cyprus
       code: CY
-      status: candidate
+      status: active
       row: 5
       col: 7
     - name: Belgium
       code: BE
-      status: candidate
+      status: active
       row: 2
+      col: 3
+    - name: Denmark
+      code: DK
+      status: active
+      row: 3
       col: 3
 projects:
   - title: Public health, health and social/behavioural projects
-    period: 2010–present
+    period: 2010-present
     start_year: 2010
-    text: Aggregated portfolio covering 10+ public health projects, 10+ social and behavioural science projects, clinical medicine, data engineering, registries and national/european statistics.
+    text: [Biostatistician] Aggregated portfolio covering 10+ public health projects, 10+ social and behavioural science projects, clinical medicine, data engineering, registries and national/european statistics.
   - title: ASTERIX FP7
-    period: 2013–2017
+    period: 2013-2017
     start_year: 2013
-    text: Advances in Small Trials dEsign for Regulatory Innovation and eXcellence; rare diseases, small populations and trial methodology.
+    text: [Researcher] Advances in Small Trials dEsign for Regulatory Innovation and eXcellence; rare diseases, small populations and trial methodology.
   - title: NEMO
-    period: 2017–2019
+    period: 2017-2019
     start_year: 2017
-    text: Missing outcome data in network meta-analysis; systematic review, empirical and simulation work with Bayesian statistics.
+    text: [Co-investigator] Missing outcome data in network meta-analysis; systematic review, empirical and simulation work with Bayesian statistics.
   - title: HARMONY COST
-    period: 2020–2024
+    period: 2020-2024
     start_year: 2020
-    text: Novel tools for test evaluation and disease prevalence estimation; WG member and trainer in Bayesian statistics and prior elicitation.
+    text: [Research - Teaching] Novel tools for test evaluation and disease prevalence estimation; WG member and trainer in Bayesian statistics and prior elicitation.
   - title: unCoVer H2020
-    period: 2021–2023
+    period: 2021-2023
     start_year: 2021
-    text: Unravelling Data for Rapid Evidence-Based Response to COVID-19; biostatistics and evidence synthesis in pandemic data.
+    text: [Researcher] Unravelling Data for Rapid Evidence-Based Response to COVID-19; biostatistics and evidence synthesis in pandemic data.
   - title: REFORMED collaborations
-    period: 2021–2025
+    period: 2021-2025
     start_year: 2021
-    text: Biostatistical collaborations in national research projects, public health, clinical medicine and applied epidemiology.
+    text: [Biostatistician] Biostatistical collaborations in national research projects, public health, clinical medicine and applied epidemiology.
   - title: JIR-CliPS COST
-    period: 2022–present
+    period: 2022-present
     start_year: 2022
-    text: Improving outcome of juvenile inflammatory rheumatism via universally applicable clinical practice strategies; MC member, researcher and statistical expert.
+    text: [Biostatistician] Improving outcome of juvenile inflammatory rheumatism via universally applicable clinical practice strategies; MC member, researcher and statistical expert.
   - title: GR-Stats Forum 
-    period: 2009–present
+    period: 2009-present
     start_year: 2009
-    text: Administrator of the GRstats Forum - Leshi Filon Statistikis, a forum for the long-running Greek statistics community initiative that is based on Ioannis Ntzoufra's GRSTATS.
+    text: [Administrator] of the GRstats Forum - Leshi Filon Statistikis, a forum for the long-running Greek statistics community initiative that is based on Ioannis Ntzoufra's GRSTATS.
   - title: Books under development
     period: ongoing
     start_year: 2026
-    text: Space reserved for book projects, lecture notes and long-form educational material in applied statistics and biostatistics.
+    text: Reserved for book projects, lecture notes and long-form educational material in applied statistics and biostatistics.
 teaching:
   - group: Applied Statistics & Biostatistics
     organisations:
@@ -261,5 +265,5 @@ publications:
       summary: Prior elicitation and posterior distributions of true disease prevalence.
 service:
   grstats: Founder and manager of GRstats Forum — Leshi Filon Statistikis, a long-running Greek statistics community initiative.
-  reviewing: Reviewer for journals including Biometrics, Statistics in Medicine, Computational Statistics, Research Synthesis Methods, Statistical Analysis and Data Mining, Mathematics and Neurology.
-  other: Member of clinical protocol review committee for the Veterinary Medicine department, University of Thessaly, September 2022–September 2025.
+  reviewing: Reviewer for journals including Statistics in Medicine, Computational Statistics, Research Synthesis Methods, Statistical Analysis and Data Mining, Mathematics and Neurology.
+  other: Member of clinical protocol review committee for the Veterinary Medicine department, University of Thessaly, September 2022-September 2025.
