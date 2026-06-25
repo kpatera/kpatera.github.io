@@ -61,92 +61,287 @@ magnet:
   subtitle: Multidisciplinary Adaptations of GAMLSS NETwork
   role: Main proposer and Action Chair Candidate
   text: MAGNET is designed around multidisciplinary adaptations of Generalized Additive Models for Location, Scale and Shape (GAMLSS), with applications in Public & One Health, infectious disease modelling, predictive risk modelling, open workflows, training schools, exchanges and pilot outputs.
-countries:
-  - name: Luxemburg
-    code: LU
-    status: active
-    row: 1
-    col: 1
-  - name: United Kingdom
-    code: UK
-    status: active
-    row: 1
-    col: 2
-  - name: Sweden
-    code: SE
-    status: inactive
-    row: 1
-    col: 3
-  - name: Finland
-    code: FI
-    status: inactive
-    row: 1
-    col: 4
-  - name: Netherlands
-    code: NL
-    status: active
-    row: 1
-    col: 5
-  - name: Germany
-    code: DE
-    status: active
-    row: 1
-    col: 6
-  - name: Poland
-    code: PL
-    status: active
-    row: 1
-    col: 7
-  - name: France
-    code: FR
-    status: inactive
-    row: 1
-    col: 8
-  - name: Switzerland
-    code: CH
-    status: interested
-    row: 2
-    col: 2
-  - name: Austria
-    code: AT
-    status: active
-    row: 2
-    col: 3
-  - name: Hungary
-    code: HU
-    status: candidate
-    row: 2
-    col: 4
-  - name: Portugal
-    code: PT
-    status: active
-    row: 3
-    col: 1
-  - name: Spain
-    code: ES
-    status: active
-    row: 3
-    col: 2
-  - name: Italy
-    code: IT
-    status: active
-    row: 3
-    col: 4
-  - name: Greece
-    code: GR
-    status: active
-    row: 4
-    col: 6
-  - name: Turkey
-    code: TR
-    status: active
-    row: 4
-    col: 7
-  - name: Cyprus
-    code: CY
-    status: active
-    row: 5
-    col: 7
+  countries:
+    - name: Luxemburg
+      code: LU
+      status: active
+      row: 1
+      col: 1
+    - name: United Kingdom
+      code: GB
+      status: active
+      row: 1
+      col: 2
+    - name: Sweden
+      code: SE
+      status: pending
+      row: 1
+      col: 3
+    - name: Finland
+      code: FI
+      status: pending
+      row: 1
+      col: 4
+    - name: Netherlands
+      code: NL
+      status: active
+      row: 1
+      col: 5
+    - name: Germany
+      code: DE
+      status: active
+      row: 1
+      col: 6
+    - name: Poland
+      code: PL
+      status: active
+      row: 1
+      col: 7
+    - name: France
+      code: FR
+      status: pending
+      row: 1
+      col: 8
+    - name: Belgium
+      code: BE
+      status: active
+      row: 2
+      col: 1
+    - name: Switzerland
+      code: CH
+      status: interested
+      row: 2
+      col: 2
+    - name: Austria
+      code: AT
+      status: active
+      row: 2
+      col: 3
+    - name: Hungary
+      code: HU
+      status: candidate
+      row: 2
+      col: 4
+    - name: Israel
+      code: IL
+      status: pending
+      row: 2
+      col: 5
+    - name: South Africa
+      code: ZA
+      status: pending
+      row: 2
+      col: 6
+    - name: Albania
+      code: AL
+      status: pending
+      row: 2
+      col: 7
+    - name: Armenia
+      code: AM
+      status: pending
+      row: 2
+      col: 8
+    - name: Portugal
+      code: PT
+      status: active
+      row: 3
+      col: 1
+    - name: Spain
+      code: ES
+      status: active
+      row: 3
+      col: 2
+    - name: Denmark
+      code: DK
+      status: active
+      row: 3
+      col: 3
+    - name: Italy
+      code: IT
+      status: active
+      row: 3
+      col: 4
+    - name: Bosnia and Herzegovina
+      code: BA
+      status: pending
+      row: 3
+      col: 5
+    - name: Bulgaria
+      code: BG
+      status: pending
+      row: 3
+      col: 6
+    - name: Croatia
+      code: HR
+      status: pending
+      row: 3
+      col: 7
+    - name: Czechia
+      code: CZ
+      status: pending
+      row: 3
+      col: 8
+    - name: Estonia
+      code: EE
+      status: pending
+      row: 4
+      col: 1
+    - name: Georgia
+      code: GE
+      status: pending
+      row: 4
+      col: 2
+    - name: Iceland
+      code: IS
+      status: pending
+      row: 4
+      col: 3
+    - name: Ireland
+      code: IE
+      status: pending
+      row: 4
+      col: 4
+    - name: Latvia
+      code: LV
+      status: pending
+      row: 4
+      col: 5
+    - name: Greece
+      code: GR
+      status: active
+      row: 4
+      col: 6
+    - name: Turkey
+      code: TR
+      status: active
+      row: 4
+      col: 7
+    - name: Lithuania
+      code: LT
+      status: pending
+      row: 4
+      col: 8
+    - name: Malta
+      code: MT
+      status: pending
+      row: 5
+      col: 1
+    - name: Moldova
+      code: MD
+      status: pending
+      row: 5
+      col: 2
+    - name: Montenegro
+      code: ME
+      status: pending
+      row: 5
+      col: 3
+    - name: North Macedonia
+      code: MK
+      status: pending
+      row: 5
+      col: 4
+    - name: Norway
+      code: NO
+      status: pending
+      row: 5
+      col: 5
+    - name: Romania
+      code: RO
+      status: pending
+      row: 5
+      col: 6
+    - name: Cyprus
+      code: CY
+      status: active
+      row: 5
+      col: 7
+    - name: Serbia
+      code: RS
+      status: pending
+      row: 5
+      col: 8
+    - name: Slovakia
+      code: SK
+      status: pending
+      row: 6
+      col: 1
+    - name: Slovenia
+      code: SI
+      status: pending
+      row: 6
+      col: 2
+    - name: Ukraine
+      code: UA
+      status: pending
+      row: 6
+      col: 3
+    - name: Algeria
+      code: DZ
+      status: pending
+      row: 6
+      col: 4
+    - name: Azerbaijan
+      code: AZ
+      status: pending
+      row: 6
+      col: 5
+    - name: Belarus
+      code: BY
+      status: pending
+      row: 6
+      col: 6
+    - name: Egypt
+      code: EG
+      status: pending
+      row: 6
+      col: 7
+    - name: Faroe Islands
+      code: FO
+      status: pending
+      row: 6
+      col: 8
+    - name: Jordan
+      code: JO
+      status: pending
+      row: 7
+      col: 1
+    - name: Lebanon
+      code: LB
+      status: pending
+      row: 7
+      col: 2
+    - name: Libya
+      code: LY
+      status: pending
+      row: 7
+      col: 3
+    - name: Morocco
+      code: MA
+      status: pending
+      row: 7
+      col: 4
+    - name: Palestine
+      code: PS
+      status: pending
+      row: 7
+      col: 5
+    - name: Russia
+      code: RU
+      status: pending
+      row: 7
+      col: 6
+    - name: Syria
+      code: SY
+      status: pending
+      row: 7
+      col: 7
+    - name: Tunisia
+      code: TN
+      status: pending
+      row: 7
+      col: 8
 projects:
   - title: Public health, health and social/behavioural projects
     period: 2010-present
