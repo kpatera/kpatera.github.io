@@ -198,7 +198,6 @@ countries:
     status: inactive
     row: 6
     col: 8
-
   - name: Iceland
     code: IS
     status: inactive
@@ -239,7 +238,6 @@ countries:
     status: inactive
     row: 7
     col: 8
-
   - name: Norway
     code: NO
     status: inactive
@@ -280,7 +278,6 @@ countries:
     status: inactive
     row: 8
     col: 8
-
   - name: Algeria
     code: DZ
     status: inactive
@@ -321,7 +318,6 @@ countries:
     status: inactive
     row: 9
     col: 8
-
   - name: Libya
     code: LY
     status: inactive
