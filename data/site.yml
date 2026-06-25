@@ -157,7 +157,6 @@ countries:
     status: active
     row: 3
     col: 3
-
   - name: Albania
     code: AL
     status: inactive
@@ -308,11 +307,6 @@ countries:
     status: inactive
     row: 9
     col: 6
-  - name: Kosovo
-    code: XK
-    status: inactive
-    row: 9
-    col: 7
   - name: Lebanon
     code: LB
     status: inactive
