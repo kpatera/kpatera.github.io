@@ -74,12 +74,12 @@ magnet:
       col: 2
     - name: Sweden
       code: SE
-      status: pending
+      status: inactive
       row: 1
       col: 3
     - name: Finland
       code: FI
-      status: pending
+      status: interested
       row: 1
       col: 4
     - name: Netherlands
@@ -99,12 +99,12 @@ magnet:
       col: 7
     - name: France
       code: FR
-      status: pending
+      status: interested
       row: 1
       col: 8
     - name: Belgium
       code: BE
-      status: active
+      status: inactive
       row: 2
       col: 1
     - name: Switzerland
@@ -119,32 +119,32 @@ magnet:
       col: 3
     - name: Hungary
       code: HU
-      status: candidate
+      status: active
       row: 2
       col: 4
     - name: Israel
       code: IL
-      status: pending
+      status: inactive
       row: 2
       col: 5
     - name: South Africa
       code: ZA
-      status: pending
+      status: inactive
       row: 2
       col: 6
     - name: Albania
       code: AL
-      status: pending
+      status: inactive
       row: 2
       col: 7
     - name: Armenia
       code: AM
-      status: pending
+      status: interested
       row: 2
       col: 8
     - name: Portugal
       code: PT
-      status: active
+      status: pending
       row: 3
       col: 1
     - name: Spain
@@ -164,17 +164,17 @@ magnet:
       col: 4
     - name: Bosnia and Herzegovina
       code: BA
-      status: pending
+      status: active
       row: 3
       col: 5
     - name: Bulgaria
       code: BG
-      status: pending
+      status: interested
       row: 3
       col: 6
     - name: Croatia
       code: HR
-      status: pending
+      status: active
       row: 3
       col: 7
     - name: Czechia
@@ -184,27 +184,27 @@ magnet:
       col: 8
     - name: Estonia
       code: EE
-      status: pending
+      status: ianctive
       row: 4
       col: 1
     - name: Georgia
       code: GE
-      status: pending
+      status: inactive
       row: 4
       col: 2
     - name: Iceland
       code: IS
-      status: pending
+      status: inactive
       row: 4
       col: 3
     - name: Ireland
       code: IE
-      status: pending
+      status: active
       row: 4
       col: 4
     - name: Latvia
       code: LV
-      status: pending
+      status: inactive
       row: 4
       col: 5
     - name: Greece
@@ -219,32 +219,32 @@ magnet:
       col: 7
     - name: Lithuania
       code: LT
-      status: pending
+      status: interested
       row: 4
       col: 8
     - name: Malta
       code: MT
-      status: pending
+      status: inactive
       row: 5
       col: 1
     - name: Moldova
       code: MD
-      status: pending
+      status: active
       row: 5
       col: 2
     - name: Montenegro
       code: ME
-      status: pending
+      status: inactive
       row: 5
       col: 3
     - name: North Macedonia
       code: MK
-      status: pending
+      status: interested
       row: 5
       col: 4
     - name: Norway
       code: NO
-      status: pending
+      status: active
       row: 5
       col: 5
     - name: Romania
@@ -259,22 +259,22 @@ magnet:
       col: 7
     - name: Serbia
       code: RS
-      status: pending
+      status: interested
       row: 5
       col: 8
     - name: Slovakia
       code: SK
-      status: pending
+      status: active
       row: 6
       col: 1
     - name: Slovenia
       code: SI
-      status: pending
+      status: inactive
       row: 6
       col: 2
     - name: Ukraine
       code: UA
-      status: pending
+      status: inactive
       row: 6
       col: 3
     - name: Algeria
@@ -284,62 +284,62 @@ magnet:
       col: 4
     - name: Azerbaijan
       code: AZ
-      status: pending
+      status: inactive
       row: 6
       col: 5
     - name: Belarus
       code: BY
-      status: pending
+      status: inactive
       row: 6
       col: 6
     - name: Egypt
       code: EG
-      status: pending
+      status: inactive
       row: 6
       col: 7
     - name: Faroe Islands
       code: FO
-      status: pending
+      status: inactive
       row: 6
       col: 8
     - name: Jordan
       code: JO
-      status: pending
+      status: inactive
       row: 7
       col: 1
     - name: Lebanon
       code: LB
-      status: pending
+      status: inactive
       row: 7
       col: 2
     - name: Libya
       code: LY
-      status: pending
+      status: inactive
       row: 7
       col: 3
     - name: Morocco
       code: MA
-      status: pending
+      status: inactive
       row: 7
       col: 4
     - name: Palestine
       code: PS
-      status: pending
+      status: inactive
       row: 7
       col: 5
     - name: Russia
       code: RU
-      status: pending
+      status: inactive
       row: 7
       col: 6
     - name: Syria
       code: SY
-      status: pending
+      status: inactive
       row: 7
       col: 7
     - name: Tunisia
       code: TN
-      status: pending
+      status: inactive
       row: 7
       col: 8
 projects:
