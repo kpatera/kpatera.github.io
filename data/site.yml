@@ -2,13 +2,13 @@
 
 name: Konstantinos Pateras
 tagline: Behavioural Sciences · Biostatistics · Evidence Synthesis
-future_role: Upcoming role - Ass. Professor of Applied Statistics in Behavioural Sciences
+future_role: Ass. Professor, elect. of Applied Statistics in Behavioural Sciences
 profile_image: /images/profile.jpg
 bio: Konstantinos Pateras is a statistician working at the intersection of applied statistics, behavioural sciences and biostatistics. His work focuses on Bayesian methods, evidence synthesis, small-population studies, public and one health applications and statistical tools that support transparent decision-making under limited or complex data. He develops and applies statistical methodology across clinical, epidemiological and behavioural research, with a strong interest in reproducible workflows and collaborative research networks.
 highlights:
-  - 27+ funded research and applied projects
-  - 37 peer-reviewed publications - 10 as first/senior author
   - Main proposer and Action Chair Candidate for MAGNET COST Action
+  - 27+ participations in funded research and applied projects
+  - 41 peer-reviewed publications - 10 as first/senior author
   - Teaching across AUEB, UTH, UU, UMCU and NKUA
   - Maintainer/contributor to 3 R tools
 links:
@@ -62,7 +62,7 @@ magnet:
   role: Main proposer and Action Chair Candidate
   text: MAGNET is designed around multidisciplinary adaptations of Generalized Additive Models for Location, Scale and Shape (GAMLSS), with applications in Public & One Health, infectious disease modelling, predictive risk modelling, open workflows, training schools, exchanges and pilot outputs.
   countries:
-    - name: Luxemburg
+    - name: Luxembourg
       code: LU
       status: active
       row: 1
@@ -79,7 +79,7 @@ magnet:
       col: 3
     - name: Finland
       code: FI
-      status: interested
+      status: active
       row: 1
       col: 4
     - name: Netherlands
@@ -104,12 +104,12 @@ magnet:
       col: 8
     - name: Belgium
       code: BE
-      status: inactive
+      status: active
       row: 2
       col: 1
     - name: Switzerland
       code: CH
-      status: interested
+      status: active
       row: 2
       col: 2
     - name: Austria
@@ -124,7 +124,7 @@ magnet:
       col: 4
     - name: Israel
       code: IL
-      status: inactive
+      status: active
       row: 2
       col: 5
     - name: South Africa
@@ -134,7 +134,7 @@ magnet:
       col: 6
     - name: Albania
       code: AL
-      status: inactive
+      status: active
       row: 2
       col: 7
     - name: Armenia
@@ -144,7 +144,7 @@ magnet:
       col: 8
     - name: Portugal
       code: PT
-      status: pending
+      status: active
       row: 3
       col: 1
     - name: Spain
@@ -169,7 +169,7 @@ magnet:
       col: 5
     - name: Bulgaria
       code: BG
-      status: interested
+      status: active
       row: 3
       col: 6
     - name: Croatia
@@ -179,7 +179,7 @@ magnet:
       col: 7
     - name: Czechia
       code: CZ
-      status: pending
+      status: active
       row: 3
       col: 8
     - name: Estonia
@@ -212,7 +212,7 @@ magnet:
       status: active
       row: 4
       col: 6
-    - name: Turkey
+    - name: Türkiye
       code: TR
       status: active
       row: 4
@@ -234,12 +234,12 @@ magnet:
       col: 2
     - name: Montenegro
       code: ME
-      status: inactive
+      status: active
       row: 5
       col: 3
     - name: North Macedonia
       code: MK
-      status: interested
+      status: active
       row: 5
       col: 4
     - name: Norway
@@ -249,7 +249,7 @@ magnet:
       col: 5
     - name: Romania
       code: RO
-      status: pending
+      status: active
       row: 5
       col: 6
     - name: Cyprus
@@ -259,7 +259,7 @@ magnet:
       col: 7
     - name: Serbia
       code: RS
-      status: interested
+      status: active
       row: 5
       col: 8
     - name: Slovakia
