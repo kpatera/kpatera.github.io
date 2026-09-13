@@ -14,7 +14,7 @@ highlights:
 links:
   google_scholar: https://scholar.google.com/citations?hl=el&user=JMQRjpUAAAAJ
   orcid: https://orcid.org/0000-0002-6005-9798
-  email: kostas.pateras (at) gmail.com
+  email: kostas.pateras [at] gmail [dot] com
   researchgate: https://www.researchgate.net/profile/Konstantinos-Pateras
   linkedin: https://www.linkedin.com/in/konstantinos-pateras-8a242b62/
 research_themes:
@@ -60,6 +60,8 @@ magnet:
   title: MAGNET COST Action 2026-2030
   subtitle: Multidisciplinary Adaptations of GAMLSS NETwork
   role: Main proposer and Action Chair Candidate
+  official_url: https://www.cost.eu/actions/CA25124/
+  official_label: Official COST Action page
   text: MAGNET is designed around multidisciplinary adaptations of Generalized Additive Models for Location, Scale and Shape (GAMLSS), with applications in Public & One Health, infectious disease modelling, predictive risk modelling, open workflows, training schools, exchanges and pilot outputs.
   countries:
     - name: Luxembourg
