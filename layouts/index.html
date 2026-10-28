@@ -43,38 +43,7 @@
     <p><strong>{{ $s.magnet.role }}</strong></p>
     <p>{{ $s.magnet.text }}</p>
   </div>
-  
-    <div class="card map">
-    <div class="map-head">
-      <div>
-        <h3>MAGNET Europe participation map</h3>
-  <!--       <p class="muted">Add or update countries in <code>data/site.yml</code> under <code>magnet.countries</code>. Status options: active, candidate, interested, pending.</p> -->
-      </div>
-      <div class="legend">
-        <span><i class="active"></i>Active</span>
-        <span><i class="candidate"></i>Candidate</span>
-        <span><i class="interested"></i>Interested</span>
-        <span><i class="inactive"></i>Inactive</span>
-      </div>
-    </div>
-    <div class="europe-tile-map" aria-label="MAGNET Europe country tile map">
-      {{ range $s.magnet.countries }}
-        <div class="country-tile status-{{ .status | default "pending" }}" style="grid-column: {{ .col | default 1 }}; grid-row: {{ .row | default 1 }};" title="{{ .name }} — {{ .status | default "pending" }}">
-          <strong>{{ .code }}</strong><small>{{ .name }}</small>
-        </div>
-      {{ end }}
- <!--    </div>
-    <details class="add-country-help">
-      <summary>How to add a country</summary>
-      <pre>  - name: Denmark
-    code: DK
-    status: interested
-    row: 1
-    col: 6</pre>
-      <p class="muted">Change <code>row</code> and <code>col</code> to move the country tile. If using /admin, open MAGNET → Countries → Add Country.</p>
-    </details>
-  </div> -->
-</section>
+  </section>
 
 <section id="projects" class="section">
   <h2>Projects</h2>
