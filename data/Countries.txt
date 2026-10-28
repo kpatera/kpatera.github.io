@@ -1,0 +1,281 @@
+  countries:
+    - name: Luxembourg
+      code: LU
+      status: active
+      row: 1
+      col: 1
+    - name: United Kingdom
+      code: GB
+      status: active
+      row: 1
+      col: 2
+    - name: Sweden
+      code: SE
+      status: inactive
+      row: 1
+      col: 3
+    - name: Finland
+      code: FI
+      status: active
+      row: 1
+      col: 4
+    - name: Netherlands
+      code: NL
+      status: active
+      row: 1
+      col: 5
+    - name: Germany
+      code: DE
+      status: active
+      row: 1
+      col: 6
+    - name: Poland
+      code: PL
+      status: active
+      row: 1
+      col: 7
+    - name: France
+      code: FR
+      status: interested
+      row: 1
+      col: 8
+    - name: Belgium
+      code: BE
+      status: active
+      row: 2
+      col: 1
+    - name: Switzerland
+      code: CH
+      status: active
+      row: 2
+      col: 2
+    - name: Austria
+      code: AT
+      status: active
+      row: 2
+      col: 3
+    - name: Hungary
+      code: HU
+      status: active
+      row: 2
+      col: 4
+    - name: Israel
+      code: IL
+      status: active
+      row: 2
+      col: 5
+    - name: South Africa
+      code: ZA
+      status: inactive
+      row: 2
+      col: 6
+    - name: Albania
+      code: AL
+      status: active
+      row: 2
+      col: 7
+    - name: Armenia
+      code: AM
+      status: interested
+      row: 2
+      col: 8
+    - name: Portugal
+      code: PT
+      status: active
+      row: 3
+      col: 1
+    - name: Spain
+      code: ES
+      status: active
+      row: 3
+      col: 2
+    - name: Denmark
+      code: DK
+      status: active
+      row: 3
+      col: 3
+    - name: Italy
+      code: IT
+      status: active
+      row: 3
+      col: 4
+    - name: Bosnia and Herzegovina
+      code: BA
+      status: active
+      row: 3
+      col: 5
+    - name: Bulgaria
+      code: BG
+      status: active
+      row: 3
+      col: 6
+    - name: Croatia
+      code: HR
+      status: active
+      row: 3
+      col: 7
+    - name: Czechia
+      code: CZ
+      status: active
+      row: 3
+      col: 8
+    - name: Estonia
+      code: EE
+      status: ianctive
+      row: 4
+      col: 1
+    - name: Georgia
+      code: GE
+      status: inactive
+      row: 4
+      col: 2
+    - name: Iceland
+      code: IS
+      status: inactive
+      row: 4
+      col: 3
+    - name: Ireland
+      code: IE
+      status: active
+      row: 4
+      col: 4
+    - name: Latvia
+      code: LV
+      status: inactive
+      row: 4
+      col: 5
+    - name: Greece
+      code: GR
+      status: active
+      row: 4
+      col: 6
+    - name: Türkiye
+      code: TR
+      status: active
+      row: 4
+      col: 7
+    - name: Lithuania
+      code: LT
+      status: interested
+      row: 4
+      col: 8
+    - name: Malta
+      code: MT
+      status: inactive
+      row: 5
+      col: 1
+    - name: Moldova
+      code: MD
+      status: active
+      row: 5
+      col: 2
+    - name: Montenegro
+      code: ME
+      status: active
+      row: 5
+      col: 3
+    - name: North Macedonia
+      code: MK
+      status: active
+      row: 5
+      col: 4
+    - name: Norway
+      code: NO
+      status: active
+      row: 5
+      col: 5
+    - name: Romania
+      code: RO
+      status: active
+      row: 5
+      col: 6
+    - name: Cyprus
+      code: CY
+      status: active
+      row: 5
+      col: 7
+    - name: Serbia
+      code: RS
+      status: active
+      row: 5
+      col: 8
+    - name: Slovakia
+      code: SK
+      status: active
+      row: 6
+      col: 1
+    - name: Slovenia
+      code: SI
+      status: inactive
+      row: 6
+      col: 2
+    - name: Ukraine
+      code: UA
+      status: inactive
+      row: 6
+      col: 3
+    - name: Algeria
+      code: DZ
+      status: pending
+      row: 6
+      col: 4
+    - name: Azerbaijan
+      code: AZ
+      status: inactive
+      row: 6
+      col: 5
+    - name: Belarus
+      code: BY
+      status: inactive
+      row: 6
+      col: 6
+    - name: Egypt
+      code: EG
+      status: inactive
+      row: 6
+      col: 7
+    - name: Faroe Islands
+      code: FO
+      status: inactive
+      row: 6
+      col: 8
+    - name: Jordan
+      code: JO
+      status: inactive
+      row: 7
+      col: 1
+    - name: Lebanon
+      code: LB
+      status: inactive
+      row: 7
+      col: 2
+    - name: Libya
+      code: LY
+      status: inactive
+      row: 7
+      col: 3
+    - name: Morocco
+      code: MA
+      status: inactive
+      row: 7
+      col: 4
+    - name: Palestine
+      code: PS
+      status: inactive
+      row: 7
+      col: 5
+    - name: Russia
+      code: RU
+      status: inactive
+      row: 7
+      col: 6
+    - name: Syria
+      code: SY
+      status: inactive
+      row: 7
+      col: 7
+    - name: Tunisia
+      code: TN
+      status: inactive
+      row: 7
+      col: 8
