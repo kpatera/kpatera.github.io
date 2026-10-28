@@ -57,8 +57,8 @@ research_themes:
 # - name: Reproducible Research
 #    type: computing
 magnet:
-  title: MAGNET COST Action 2026-2030 CA25124 - https://www.cost.eu/actions/CA25124/
-  subtitle: Multidisciplinary Adaptations of GAMLSS NETwork
+  title: MAGNET COST Action 2026-2030 CA25124
+  subtitle: Multidisciplinary Adaptations of GAMLSS NETwork - www.magnet-cost.eu
   role: Main proposer and Action Chair Candidate
   text: MAGNET is designed around multidisciplinary adaptations of Generalized Additive Models for Location, Scale and Shape (GAMLSS), with applications in Public & One Health, infectious disease modelling, predictive risk modelling, open workflows, training schools, exchanges and pilot outputs.
   countries:
